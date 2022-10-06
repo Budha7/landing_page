@@ -1,0 +1,164 @@
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+img {
+    border-radius: 16px;
+    width: 166px;
+}
+
+.hero-button {
+    background: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 8px;
+}
+
+.content {
+    margin-left: 100px;
+    /* margin-bottom: 100px;*/
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.image {
+    width: 520px;
+    height: 240px;
+    background: url("../image/sky.jpg") no-repeat center;
+}
+
+.right-link {
+    padding-right: 70px;
+}
+
+.mainTest {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 30px 0px 0px 0px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-images {
+    display: flex;
+    gap: 20px;
+}
+
+.info-image {
+    width: 166px;
+    height: 166px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+}
+
+.quotes {
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.author-name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup {
+    padding: 100px;
+
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.right-action{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    color: white
+}
+
+.action-btn {
+    background: #3882f6;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid black;
+    border-color: white;
+    padding: 5px 30px;
+}
+
+.footer {
+    color: #f9f9f9;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
